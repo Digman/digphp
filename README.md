@@ -1,2 +1,2 @@
-# digphp
-a simple php framework
+# DigPHP
+a simple php framework.
