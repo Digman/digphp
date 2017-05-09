@@ -6,7 +6,7 @@
  * Time: 20:14
  */
 
-namespace App\Http\Web\Controllers;
+namespace App\Http\Api\Controllers;
 
 
 class TestController {
