@@ -24,11 +24,6 @@ class Application extends Container {
         parent::__construct($values);
     }
     
-    public function assemble()
-    {
-        
-    }
-
     /**
      * init providers
      * @return Application

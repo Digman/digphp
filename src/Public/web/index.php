@@ -1,7 +1,4 @@
 <?php
-/**
- * Default Web Application
- */
 
 /**
  * @var Library\Application $app
