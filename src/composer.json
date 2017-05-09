@@ -3,7 +3,10 @@
     "description": "A simple php framework",
     "type": "project",
     "require": {
-        "php": ">=5.6.4"
+        "php": ">=5.6.4",
+        "pimple/pimple": "~3.0",
+        "monolog/monolog": "^1.19",
+        "smarty/smarty": "v3.1.29"
     },
     "license": "MIT",
     "authors": [

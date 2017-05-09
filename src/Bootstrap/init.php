@@ -4,6 +4,17 @@
  * Do some initialization
  */
 
-define('START_TIME', microtime(true));
+/**
+ * Load constants
+ */
+require dirname(__DIR__) . '/Bootstrap/constants.php';
 
-require dirname(__DIR__) . '/Vendor/autoload.php';
+/**
+ * Setup autoload
+ */
+require PATH_ROOT . '/Vendor/autoload.php';
+
+/**
+ * @var Library\Application
+ */
+return Library\Application::init();
