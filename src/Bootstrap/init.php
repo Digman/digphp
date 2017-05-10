@@ -15,6 +15,11 @@ require dirname(__DIR__) . '/Bootstrap/constants.php';
 require PATH_ROOT . '/Vendor/autoload.php';
 
 /**
+ * Util functions
+ */
+require PATH_ROOT . '/Bootstrap/utils.php';
+
+/**
  * @var Library\Application
  */
 return Library\Application::init();

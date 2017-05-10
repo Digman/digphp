@@ -1,0 +1,35 @@
+{
+  "name": "digphp/digphp",
+  "description": "A simple php framework",
+  "type": "project",
+  "require": {
+    "php": ">=5.6.4",
+    "pimple/pimple": "~3.0",
+    "monolog/monolog": "^1.19",
+    "smarty/smarty": "v3.1.29"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Digman",
+      "email": "long2513@gmail.com"
+    }
+  ],
+  "config": {
+    "vendor-dir": "src/Vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/App",
+      "Library\\": "src/Library"
+    }
+  },
+  "autoload-dev": {
+    "classmap": [
+      "tests/"
+    ]
+  }
+}
