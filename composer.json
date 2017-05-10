@@ -21,6 +21,7 @@
   "config": {
     "vendor-dir": "src/Vendor"
   },
+  "prefer-stable": true,
   "autoload": {
     "psr-4": {
       "App\\": "src/App",
