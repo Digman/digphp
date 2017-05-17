@@ -5,19 +5,9 @@
  */
 
 /**
- * Load constants
- */
-require dirname(__DIR__) . '/Bootstrap/constants.php';
-
-/**
  * Setup autoload
  */
-require PATH_ROOT . '/Vendor/autoload.php';
-
-/**
- * Util functions
- */
-require PATH_ROOT . '/Bootstrap/utils.php';
+require dirname(__DIR__) . '/Vendor/autoload.php';
 
 /**
  * @var Library\Application
