@@ -1,2 +1,2 @@
 # DigPHP
-a simple php framework.
+a simple php framework for research.
