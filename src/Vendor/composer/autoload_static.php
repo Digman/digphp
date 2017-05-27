@@ -22,6 +22,7 @@ class ComposerStaticInit9788218b733ece598975591da493de08
         'S' => 
         array (
             'Symfony\\Component\\Yaml\\' => 23,
+            'Sorien\\Provider\\' => 16,
         ),
         'P' => 
         array (
@@ -60,6 +61,10 @@ class ComposerStaticInit9788218b733ece598975591da493de08
         'Symfony\\Component\\Yaml\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/yaml',
+        ),
+        'Sorien\\Provider\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/sorien/silex-pimple-dumper/src',
         ),
         'Psr\\Log\\' => 
         array (
