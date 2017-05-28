@@ -3,7 +3,7 @@
 /**
  * @var Library\Application $app
  */
-$app = require 'src/Bootstrap/init.php';
+$app = require __DIR__ . '/src/Bootstrap/init.php';
 
 /**
  * create/update file pimple.json
