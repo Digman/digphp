@@ -1,6 +1,7 @@
 <?php
 namespace Library;
 
+use App\Provider\ConfigServiceProvider;
 use Pimple\Container;
 
 /**
@@ -33,6 +34,15 @@ class Application extends Container {
         if (empty(self::$instance))
         {
             $instance = new static();
+            $instance->register(new ConfigServiceProvider());
+            $providers = $instance['config']->get('bootstrip.providers');
+            if (!empty($providers))
+            {
+                foreach ($providers as $provider)
+                {
+                    $instance->register(new $provider());
+                }
+            }
             self::$instance = $instance;
         }
         return self::$instance;

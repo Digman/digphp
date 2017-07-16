@@ -8,4 +8,4 @@ $app = require dirname(dirname(__DIR__)) . '/Bootstrap/init.php';
 /**
  * Dispatch routes
  */
-$app['router']->routing(__DIR__)->run();
+$app['router']->routing('admin')->run();

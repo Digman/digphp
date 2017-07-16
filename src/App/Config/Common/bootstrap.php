@@ -10,6 +10,6 @@ return [
      * Providers
      */
     'providers' => [
-
+        \App\Provider\RouterServiceProvider::class,
     ],
 ];
